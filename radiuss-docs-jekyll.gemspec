@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "radiuss-docs-jekyll"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["@vsoch"]
   spec.email         = ["vsoch@users.noreply.github.com"]
 
@@ -15,9 +15,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|NOTICE|COPYRIGHT|LICENSE|README)}i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 4.1"
-  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1.0"
-  spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
+  spec.add_runtime_dependency "jekyll", "~> 1.2"
 end
 
