@@ -16,8 +16,20 @@ or without.
 Using the theme is easy - just add it as a `remote_theme` to your config yaml.
 
 ```bash
+# Theme for docs
+plugins:
+  - jekyll-remote-theme
+
 remote_theme: rse-radiuss/radiuss-docs-jekyll
 ```
+
+And add 
+
+```
+gem "jekyll-remote-theme"
+```
+
+to your Gemfile.
 
 ### Add a Page
 
@@ -58,13 +70,14 @@ permalink: /pagename/
 
 ## Development
 
-The gem is built during CI, and release is currently done from the command line:
+If you want to use the gem, it is built during CI, and release is currently done from the command line:
 
 ```bash
 $ /bin/bash script/release.sh
 ```
 
-When you release, you should bump the version in [radiuss-docs-jekyll.gemspec](radiuss-docs-jekyll.gemspec)
+But this isn't required since we can use `jekyll-remote-theme` and use it directly from GitHub.
+If you do release, you should bump the version in [radiuss-docs-jekyll.gemspec](radiuss-docs-jekyll.gemspec)
 and be on the main branch.
 
 License
