@@ -56,6 +56,17 @@ permalink: /pagename/
 ---
 ```
 
+## Development
+
+The gem is built during CI, and release is currently done from the command line:
+
+```bash
+$ /bin/bash script/release.sh
+```
+
+When you release, you should bump the version in [radiuss-docs-jekyll.gemspec](radiuss-docs-jekyll.gemspec)
+and be on the main branch.
+
 License
 -------
 
