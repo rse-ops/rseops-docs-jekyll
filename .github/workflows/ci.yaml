@@ -5,15 +5,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build
+    name: Build Jekyll Theme
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
           bundler-cache: true
-      - name: build
+      - name: Bootstrap
         run: script/bootstrap.sh
-      - name: test
+      - name: Build
         run: script/build.sh
 
