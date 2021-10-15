@@ -1,7 +1,7 @@
 title: The title of your theme
 
-nav_logo_file: assets/img/radius-text.png
-footer_logo_file: assets/img/radius-circle.png
+nav_logo_file: assets/img/rse-ops-text.png
+footer_logo_file: assets/img/rse-ops-circle.png
 
 permalink: pretty
 defaults:
