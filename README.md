@@ -1,15 +1,15 @@
-# RADIUSS Docs Jekyll
+# RSE-ops Docs Jekyll
 
-![assets/img/radius-text.png](assets/img/radius-text.png)
+![assets/img/rse-ops-text.png](assets/img/rse-ops-text.png)
 
-This is a RADIUSS documentation Jekyll theme that can be easily deployed to a RADIUSS
+This is a RSE-ops documentation Jekyll theme that can be easily deployed to a RSE-ops
 site. The style looks like this, either with a sidebar:
 
-![assets/img/theme-sidebar.png](assets/img/theme-sidebar.png)
+TOOD UPDATE
 
 or without.
 
-![assets/img/theme.png](assets/img/theme.png)
+TOOD UPDATE
 
 ## Usage
 
@@ -20,7 +20,7 @@ Using the theme is easy - just add it as a `remote_theme` to your config yaml.
 plugins:
   - jekyll-remote-theme
 
-remote_theme: rse-radiuss/radiuss-docs-jekyll
+remote_theme: rse-ops/rseops-docs-jekyll
 ```
 
 And add 
@@ -77,7 +77,7 @@ $ /bin/bash script/release.sh
 ```
 
 But this isn't required since we can use `jekyll-remote-theme` and use it directly from GitHub.
-If you do release, you should bump the version in [radiuss-docs-jekyll.gemspec](radiuss-docs-jekyll.gemspec)
+If you do release, you should bump the version in [rseops-docs-jekyll.gemspec](rseops-docs-jekyll.gemspec)
 and be on the main branch.
 
 License
