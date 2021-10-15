@@ -5,11 +5,11 @@
 This is a RSE-ops documentation Jekyll theme that can be easily deployed to a RSE-ops
 site. The style looks like this, either with a sidebar:
 
-TOOD UPDATE
+![assets/images/theme-sidebar.png](assets/images/theme-sidebar.png)
 
 or without.
 
-TOOD UPDATE
+![assets/images/theme.png](assets/images/theme.png)
 
 ## Usage
 
